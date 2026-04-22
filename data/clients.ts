@@ -1,0 +1,15 @@
+export const clients: string[] = [
+  "Bioma",
+  "Casa Vertical",
+  "Tegra",
+  "Volvo",
+  "Fuleco",
+  "Vitacon",
+  "Sanofi",
+  "Lilly",
+  "Under Armour",
+  "Tishman Speyer",
+  "Scania",
+  "Bradesco",
+  "P&G Health",
+];
