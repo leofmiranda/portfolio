@@ -27,24 +27,24 @@ export default function Newsletter() {
           </p>
 
           <motion.form
-            className=\"space-y-6\"
+            className="space-y-6"
             onSubmit={(e) => e.preventDefault()}
           >
             <input
-              type=\"email\"
-              placeholder=\"your@email.com\"
-              className=\"w-full px-6 py-3 border border-ink/20 rounded bg-transparent text-ink placeholder:text-ink/30 focus:outline-none focus:border-ink transition-colors\"
+              type="email"
+              placeholder="your@email.com"
+              className="w-full px-6 py-3 border border-ink/20 rounded bg-transparent text-ink placeholder:text-ink/30 focus:outline-none focus:border-ink transition-colors"
               required
             />
             <button
-              type=\"submit\"
-              className=\"w-full px-6 py-3 bg-ink text-canvas font-light tracking-wide hover:bg-ink/90 transition-colors rounded\"
+              type="submit"
+              className="w-full px-6 py-3 bg-ink text-canvas font-light tracking-wide hover:bg-ink/90 transition-colors rounded"
             >
               Subscribe
             </button>
           </motion.form>
 
-          <p className=\"text-[12px] text-ink/50 font-light mt-8\">
+          <p className="text-[12px] text-ink/50 font-light mt-8">
             We respect your privacy. Unsubscribe at any time.
           </p>
         </motion.div>
